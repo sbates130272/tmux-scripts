@@ -1,0 +1,7 @@
+tmux scripts
+------------
+
+A collection of simple tmux scripts for useful workflow. Probably best
+cloned into ~/.tmux or similar. Based on ideas in [1].
+
+[1] https://blog.htbaa.com/news/tmux-scripting
