@@ -18,6 +18,7 @@ tmux select-pane -t 1
 tmux send-keys "watch -n 3 distccmon-text" C-m
 tmux split-window -h
 tmux send-keys "htop" C-m
+tmux select-pane -t 0
 
 # Set default window
 tmux select-window -t $SESSION:1
