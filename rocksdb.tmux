@@ -17,6 +17,7 @@ tmux new-window -t $SESSION:1 -n 'RocksDB'
 tmux split-window -v
 tmux select-pane -t 0
 tmux split-window -h
+tmux select-pane -t 1
 tmux split-window -v -p 50
 tmux select-pane -t 1
 tmux send-keys "dmesg -w" C-m
